@@ -300,3 +300,13 @@
 14:48:04.923 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 29316 (started by Samsung in C:\workspace_java_arq\api_pedidos)
 14:48:04.924 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
 14:48:07.563 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.961 seconds (process running for 4.347)
+15:16:14.983 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:16:15.136 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+15:16:15.716 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 16372 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+15:16:15.717 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:16:20.607 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 5.236 seconds (process running for 6.52)
+15:18:36.305 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:18:36.419 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+15:18:36.916 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 2104 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+15:18:36.918 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:18:39.421 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.805 seconds (process running for 4.046)
