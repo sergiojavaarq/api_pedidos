@@ -3,9 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - java -version
-      - amazon-linux-extras install java-openjdk17
-      - mvn clean package
+      - mvn -B clean package -Dmaven.compiler.source=17 -Dmaven.compiler.target=17
 artifacts:
   files:
-    - target/api_pedidos.jar
+    - target/*.jar
