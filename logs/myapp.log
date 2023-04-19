@@ -290,3 +290,13 @@
 22:06:53.600 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
 22:06:53.600 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
 22:06:53.600 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+14:19:12.324 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:19:12.443 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+14:19:13.044 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 27236 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+14:19:13.046 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14:19:15.700 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.996 seconds (process running for 4.355)
+14:48:04.244 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:48:04.366 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+14:48:04.923 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 29316 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+14:48:04.924 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14:48:07.563 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.961 seconds (process running for 4.347)
