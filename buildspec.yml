@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - mvnw clean package
+      - mvn clean package
 artifacts:
   files:
     - target/api_pedidos.jar
