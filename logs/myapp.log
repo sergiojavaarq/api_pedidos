@@ -330,3 +330,8 @@
 15:56:41.523 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 18352 (started by Samsung in C:\workspace_java_arq\api_pedidos)
 15:56:41.524 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
 15:56:44.406 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 3.21 seconds (process running for 4.684)
+16:04:38.805 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:04:38.954 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+16:04:39.563 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 22572 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+16:04:39.564 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:04:41.974 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.783 seconds (process running for 4.168)
