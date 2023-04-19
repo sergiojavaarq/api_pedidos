@@ -1,16 +1,23 @@
 version: 0.2
+
 phases:
+  install:
+    runtime-versions:
+      java: openjdk-11
+    commands:
+      - echo Entered the install phase...
   pre_build:
     commands:
-      - echo "Entered the pre-build phase"
+      - echo Entered the pre_build phase...
   build:
     commands:
-      - echo "Entered build phase"
-      - mvn clean prepare-package war:exploded
+      - echo Entered the build phase...
+      - mvn clean package
+      - aws cloudformation package --template-file Dockerrun.aws.json --s3-bucket your-s3-bucket-name --output-template-file target/eb-cfn-template.yaml
   post_build:
     commands:
-      - echo "Entered the post-build phase"
-      - mv target/deploy ./
+      - echo Entered the post_build phase...
+      - aws s3 cp target/eb-cfn-template.yaml s3://your-s3-bucket-name/eb-cfn-template.yaml
 artifacts:
   files:
-    - deploy/**/*
+    - target/eb-cfn-template.yaml
