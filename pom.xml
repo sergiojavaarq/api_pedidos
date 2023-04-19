@@ -89,18 +89,19 @@
 				</configuration>
 				<executions>
 					<execution>
-						<id>default-war</id>
-						<phase>none</phase>
+						<id>build-info</id>
+						<goals>
+							<goal>build-info</goal>
+						</goals>
 					</execution>
 					<execution>
-						<id>war-exploded</id>
-						<configuration>
-							<webappDirectory>target/deploy</webappDirectory>
-							<archiveClasses>true</archiveClasses>
-						</configuration>
+						<id>build-exploded</id>
 						<phase>prepare-package</phase>
+						<configuration>
+							<outputDirectory>${project.build.directory}/exploded</outputDirectory>
+						</configuration>
 						<goals>
-							<goal>exploded</goal>
+							<goal>repackage</goal>
 						</goals>
 					</execution>
 				</executions>
